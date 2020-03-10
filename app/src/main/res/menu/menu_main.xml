@@ -1,13 +1,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.myapplication.MainActivity">
+
     <item
         android:id="@+id/about"
         android:orderInCategory="100"
-        android:title="About us" />
+        android:title="@string/about"/>
     <item
         android:id="@+id/faq"
         android:orderInCategory="150"
-        android:title="FAQ" />
+        android:title="@string/faq"/>
 </menu>

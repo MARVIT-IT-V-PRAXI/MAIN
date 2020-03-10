@@ -1,4 +1,4 @@
-package com.example.itvpraxi;
+package com.example.maervit;
 
 import org.junit.Test;
 

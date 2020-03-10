@@ -1,4 +1,4 @@
-package com.example.itvpraxi;
+package com.example.maervit;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.itvpraxi", appContext.getPackageName());
+        assertEquals("com.example.maervit", appContext.getPackageName());
     }
 }
