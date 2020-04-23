@@ -28,8 +28,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.example.maervit.Chladnicka"
+            android:label="Chladnička" />
+        <activity android:name="com.example.maervit.Faq" />
+        <activity
             android:name="com.example.maervit.MainActivity"
-            android:label="@string/app_name" >
+            android:label="Ekoshopka" />
+        <activity android:name="com.example.maervit.HomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,8 +43,10 @@
         </activity>
         <activity
             android:name="com.example.maervit.Main2Activity"
-            android:label="Liner" >
-        </activity>
+            android:label="Liner" />
+        <activity
+            android:name="com.example.maervit.Onas"
+            android:parentActivityName="com.example.maervit.MainActivity" />
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
